@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="partly_cloudy_day_sun_clouds_weather_icon_177560.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="partly_cloudy_day_sun_clouds_weather_icon_177560.ico" />
+  </ItemGroup>
+
+</Project>
